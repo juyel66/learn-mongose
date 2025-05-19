@@ -1,5 +1,5 @@
 {
-  "name": "first-project",
+  "name": "exit",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
@@ -17,7 +16,24 @@
     "mongoose": "^8.15.0"
   },
   "devDependencies": {
+    "@eslint/js": "^9.27.0",
+    "@types/cors": "^2.8.18",
+    "@types/express": "^5.0.2",
     "@types/node": "^22.15.18",
-    "typescript": "^5.8.3"
-  }
+    "@typescript-eslint/eslint-plugin": "^8.32.1",
+    "@typescript-eslint/parser": "^8.32.1",
+    "eslint": "^9.27.0",
+    "globals": "^16.1.0",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.32.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juyel66/learn-mongose.git"
+  },
+  "bugs": {
+    "url": "https://github.com/juyel66/learn-mongose/issues"
+  },
+  "homepage": "https://github.com/juyel66/learn-mongose#readme",
+  "description": ""
 }
