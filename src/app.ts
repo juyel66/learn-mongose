@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get('/', (req: Request, res: Response) => {
-  res.send('Hello World!');
+  res.send('PH University server is running!');
 });
 
 // console.log(process.cwd())j
